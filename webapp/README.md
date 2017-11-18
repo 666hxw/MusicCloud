@@ -1,4 +1,4 @@
-# Vue2.0 Project For MusciCloud
+# Vue2.0 Project For MusicCloud
 
 > MusicCloud built in Vue2.0
 
