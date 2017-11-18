@@ -1,0 +1,36 @@
+[
+	[
+		{
+		"title": "我的主页",
+		"path": "/user/home",
+		"icon": "home"
+		},
+		{
+			"title": "我的消息",
+			"path": "/msg",
+			"icon": "msg"
+		},
+		{
+			"title": "我的等级",
+			"path": "/user/level",
+			"icon": "level"
+		},
+		{
+			"title": "会员中心",
+			"path": "/member",
+			"icon": "member"
+		}
+	],
+	[
+		{
+			"title": "个人设置",
+			"path": "/user/setting",
+			"icon": "setting"
+		},
+		{
+			"title": "导入歌单",
+			"path": "/import",
+			"icon": "import"
+		}
+	]
+]

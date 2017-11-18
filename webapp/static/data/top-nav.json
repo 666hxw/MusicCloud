@@ -1,0 +1,21 @@
+[
+	{
+		"title": "发现音乐",
+		"path": "/discover"
+	},{
+		"title": "我的音乐",
+		"path": "/my"
+	},{
+		"title": "朋友",
+		"path": "/friend"
+	},{
+		"title": "商城",
+		"path": "/shop"
+	},{
+		"title": "音乐人",
+		"path": "/muscist"
+	},{
+		"title": "下载客户端",
+		"path": "/download"
+	}
+]

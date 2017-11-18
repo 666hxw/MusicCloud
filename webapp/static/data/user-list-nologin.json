@@ -1,0 +1,30 @@
+[
+	[
+		{
+		"title": "我的主页",
+		"icon": "home"
+		},
+		{
+			"title": "我的消息",
+			"icon": "msg"
+		},
+		{
+			"title": "我的等级",
+			"icon": "level"
+		},
+		{
+			"title": "会员中心",
+			"icon": "member"
+		}
+	],
+	[
+		{
+			"title": "个人设置",
+			"icon": "setting"
+		},
+		{
+			"title": "导入歌单",
+			"icon": "import"
+		},
+	]
+]
