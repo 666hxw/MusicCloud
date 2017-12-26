@@ -1,14 +1,23 @@
 <template>
 	<div>
-		<router-view ></router-view>
+		歌手
 	</div>
 </template>
 <script>
 	export default {
-		 
+		data(){
+			return {
+				
+			}
+		},
+		methods: {
+
+		},
+		mounted(){
+			
+		}
 	}
 </script>
 <style scoped lang="scss">
 	
-
 </style>

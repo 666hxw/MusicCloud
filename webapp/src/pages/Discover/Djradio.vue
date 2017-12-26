@@ -1,23 +1,23 @@
 <template>
 	<div>
-		我的音乐
+		主播电台
 	</div>
 </template>
-<style scoped lang="scss">
-	
-</style>
 <script>
-	export default{
+	export default {
 		data(){
 			return {
-
+				
 			}
 		},
-		methods:{
+		methods: {
 
 		},
 		mounted(){
-		
+			
 		}
 	}
 </script>
+<style scoped lang="scss">
+	
+</style>
