@@ -75,7 +75,6 @@
             .download {
                 position: absolute;
                 top: 0;
-                z-index: 20;
                 right: -1px;
                 width: 254px;
                 height: 336px;

@@ -80,10 +80,10 @@
 		height: $top-bar-h;
 		background-color: $top-bar-bg-color;
 		.logo,.search-field,sup.cor,.clear-search,.upload-video{
-			background: url(/static/img/topbar.png) no-repeat;
+			background: url(../../static/img/topbar.png) no-repeat;
 		}
 		.icon,.arrow{
-			background: url(/static/img/toplist.png) no-repeat;
+			background: url(../../static/img/toplist.png) no-repeat;
 		}
 		.wrap{
 			width: $top-bar-content-w;
@@ -335,7 +335,7 @@
 				curPath: '', //当前路径
 				search: '', //搜索内容
 				searchResData: [], //搜索结果数据
-				avatar: '/static/img/avatar/avatar.jpg', //用户头像路径
+				avatar: './static/img/avatar/avatar.jpg', //用户头像路径
 				showUserInfo: false, //是否显示用户下拉菜单
 				userListData: {
 					login: [], //登录
@@ -367,11 +367,11 @@
 			//获取用户下拉列表菜单数据
 			getUserList(){
 				//获取登录后菜单
-				this.$http.get('/static/data/user-list-login.json').then((res)=>{
+				this.$http.get('./static/data/user-list-login.json').then((res)=>{
 					this.userListData.login = res.data;
 				});				
 				//获取未登录菜单
-				this.$http.get('/static/data/user-list-nologin.json').then((res)=>{
+				this.$http.get('./static/data/user-list-nologin.json').then((res)=>{
 					this.userListData.noLogin = res.data;
 				});
 			},

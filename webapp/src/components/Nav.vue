@@ -28,13 +28,13 @@
         methods: {
             //获取一级导航菜单数据
 			getNavData(){
-				this.$http.get('/static/data/top-nav.json').then((res)=>{
+				this.$http.get('./static/data/top-nav.json').then((res)=>{
 					this.navData = res.data;
 				})
             },
             //获取二级导航菜单数据
 			getSubNavData(){
-				this.$http.get('/static/data/sub-nav.json').then((res)=>{
+				this.$http.get('./static/data/sub-nav.json').then((res)=>{
 					this.subNavData = res.data;
 				})
 			},
